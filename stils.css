@@ -1,0 +1,72 @@
+html{
+    scroll-behavior: smooth;
+    margin: 40px 80px;
+    background-color: rgb(116, 45, 45);
+}
+body{
+    font-style: italic;
+    text-align: center;
+   
+}
+section{
+ scroll-margin-top: 90px;
+ background-color: rgb(255, 230, 197);
+}
+p{
+    text-align: center;
+    border: solid black 1px;
+    margin: 20px 60px;
+    padding: 20px;
+}
+.glow-btn{
+    padding:6px 10px;
+    font-size:16px;
+    color:rgb(250, 230, 230);
+    background: antiquewhite;
+    border:1px  solid black;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s;
+}
+.glow-btn:hover{
+    box-shadow: 0 0 100px white,
+                0 0 20px maroon,
+                0 0 40px white;
+    transform:scale(1.1);
+}
+.container1{
+    display: flex;
+    align-items: center;   
+    gap: 15px; 
+              
+}
+.container1 img{
+    width: 1000px;           
+    height: auto;
+    border-radius: 8px;
+}
+.carousel-item img{
+ height: 350px;
+ width: 200px;
+}
+.carousel{
+    width: 650px;
+    margin: 0 auto;  
+}
+h2{
+    text-align: center;
+}
+.social-icon i {    /* Instagram poga */
+    font-size: 24px;          
+    color: #E1306C;           
+    transition: color 0.3s;
+}
+.social-icon i:hover {
+    color: #C13584;           
+}
+.nav li:last-child i {   /* Tiktok poga */
+    color: #4267B2;           
+}
+.nav li:last-child i:hover {
+    color: #365899;           
+}
